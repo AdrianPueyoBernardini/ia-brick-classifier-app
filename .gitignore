@@ -41,3 +41,22 @@ example
 # generated native folders
 /ios
 /android
+
+# --- Variables de entorno ---
+.env
+.env.*
+!.env.example
+
+# --- Python & IA (ecoscan-ai) ---
+ecoscan-ai/.venv/
+ecoscan-ai/venv/
+ecoscan-ai/datasets/
+ecoscan-ai/models/
+ecoscan-ai/__pycache__/
+*.pyc
+
+# --- React Native / Expo (ecoscan-app) ---
+ecoscan-app/node_modules/
+ecoscan-app/.expo/
+ecoscan-app/dist/
+ecoscan-app/web-build/
